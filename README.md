@@ -2,7 +2,7 @@
 
 > A Vue.js UI modules project
 
-- a rich text editor by tinymce (ex: Editor)
+- a rich text editor by tinymce (version:4.7.4 no 5.x ex: Editor)
 
 
 ## Build Setup
