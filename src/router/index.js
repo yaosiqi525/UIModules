@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import MainView from '@/pages/Main'
+import EditorView from '@/pages/Editor'
 
 Vue.use(Router)
 
@@ -8,7 +8,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      component: MainView
+      component: EditorView
     }
   ]
 })
