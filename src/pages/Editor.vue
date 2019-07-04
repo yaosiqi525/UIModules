@@ -23,6 +23,7 @@ export default {
 
   data () {
     return {
+      name: '',
       content: '',
       editorSetting: {
         placeholder: 'test',
@@ -49,6 +50,9 @@ export default {
   },
   watch: {
     content (val) {
+      console.log(val)
+    },
+    name (val) {
       console.log(val)
     }
   },

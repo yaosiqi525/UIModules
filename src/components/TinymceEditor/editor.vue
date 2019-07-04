@@ -1,6 +1,5 @@
-
 <template>
-        <textarea :id="id" :value="value"></textarea>
+  <textarea :id="id" :value="value"></textarea>
 </template>
 
 <script>
